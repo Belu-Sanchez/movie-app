@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Dashboard, Forgot, LastReleases, Login, PopularMovies, Search, SignIn } from './pages';
+import { Dashboard, Forgot, LastReleases, Login, PopularMovies, Search, SignUp } from './pages';
 
 
 const root = ReactDOM.createRoot(
@@ -15,7 +15,7 @@ root.render(
       <Route index element={<Dashboard />} />
       <Route path="login" element={<Login />} />
       <Route path="forgot" element={<Forgot />} />
-      <Route path="singin" element={<SignIn />} />
+      <Route path="singup" element={<SignUp />} />
       <Route path="lastreleases" element={<LastReleases />} />
       <Route path="popularmovies" element={<PopularMovies />} />
       <Route path="search" element={<Search />} />

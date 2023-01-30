@@ -4,5 +4,5 @@ export { LastReleases } from './LatestReleases';
 export { Login } from './Login';
 export { PopularMovies } from './PopularMovies';
 export { Search } from './Searcher';
-export { SignIn } from './Signin';
+export { SignUp } from './Signup';
 
