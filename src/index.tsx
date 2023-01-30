@@ -15,7 +15,7 @@ root.render(
       <Route index element={<Dashboard />} />
       <Route path="login" element={<Login />} />
       <Route path="forgot" element={<Forgot />} />
-      <Route path="singup" element={<SignUp />} />
+      <Route path="signup" element={<SignUp />} />
       <Route path="lastreleases" element={<LastReleases />} />
       <Route path="popularmovies" element={<PopularMovies />} />
       <Route path="search" element={<Search />} />
