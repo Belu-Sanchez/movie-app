@@ -1,7 +1,16 @@
+import { SignUpForm } from '../../components/forms'
+import './styles.scss'
+
 const SignUp = () => {
     return (
         <>
-        <div>Sign Up</div>
+            <div className="container-page-sign-up">
+                <div className="logo">
+                    Movies App</div>
+                <div className="container-form">
+                    <SignUpForm />
+                </div>
+            </div>
         </>
     );
 }
