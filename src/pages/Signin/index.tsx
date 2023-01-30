@@ -1,4 +1,4 @@
-const Signin = () => {
+const SignIn = () => {
     return (
         <>
         <div>Sign in</div>
@@ -6,4 +6,4 @@ const Signin = () => {
     );
 }
 
-export { Signin };
+export { SignIn };
