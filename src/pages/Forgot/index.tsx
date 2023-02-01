@@ -1,7 +1,9 @@
+import { ForgotForm } from "../../components/forms";
+
 const Forgot = () => {
     return (
         <>
-        <div>For got</div>
+        <ForgotForm />
         </>
     );
 }
