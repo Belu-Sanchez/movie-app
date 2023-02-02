@@ -1,12 +1,14 @@
 import { NavLink } from 'react-router-dom';
-import { Aside } from '../Aside';
 import './styles.scss'
 
 const NavBar = ( ) => {
     return (
       <div className="btn-nav">
-        <Aside />
-        {/* <NavLink to="/estrenos">Estrenos</NavLink> */}
+        <NavLink to="/signup">Signup</NavLink>
+        <NavLink to="/login">Login</NavLink>
+        <NavLink to="/signin">Signin</NavLink>
+
+      
       </div>
     );
   };
