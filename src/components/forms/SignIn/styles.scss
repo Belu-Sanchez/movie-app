@@ -1,0 +1,31 @@
+.container-form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  .title {
+    background-color: white;
+    width: 50%;
+    h2 {
+      font-size: 3em;
+      text-align: center;
+    }
+  }
+  .container-sign-in {
+    color: white;
+    padding: 2em;
+    width: 29rem;
+    background-color: black;
+    .btn-form {
+      background-color: white;
+      border: solid 1px;
+      margin-bottom: 0.5em;
+    }
+    a:link,
+    a:visited,
+    a:active {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
