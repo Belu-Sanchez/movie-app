@@ -5,12 +5,9 @@ import './styles.scss';
 
 const Header = () => {
   return (
-    <Navbar className="header-style" expand="lg">
-      <Container>
-        <Navbar.Brand className="logo">Movie App</Navbar.Brand>
-        <NavBar />
-      </Container>
-    </Navbar>
+       <header>
+      <NavBar />
+    </header>
   );
 };
 

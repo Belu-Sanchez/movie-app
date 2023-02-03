@@ -21,6 +21,11 @@
       border: solid 1px;
       margin-bottom: 0.5em;
     }
+    .btn-form:active,
+    .btn-form:hover {
+      background-color: rgb(0, 0, 0);
+      border: white 2px solid;
+    }
     a:link,
     a:visited,
     a:active {

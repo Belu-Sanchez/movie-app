@@ -1,26 +1,25 @@
-.container-form {
+.form-forgot {
+  width: 80%;
   margin: 2.5em;
+  padding: 2em;
   background-image: repeating-linear-gradient(
     -45deg,
     transparent 0 20px,
     black 20px 40px
   );
   box-shadow: 2px 10px 30px;
-  .container-sign-up {
+  .container-forgot {
     color: white;
     padding: 2em;
-    width: 28rem;
+    width: 100%;
     background-color: black;
-    .title-form {
-      display: flex;
-      justify-content: center;
-    }
-    .btn-sign-up {
+
+    .btn-forgot {
       background-color: white;
       border: solid 1px;
     }
-    .btn-sign-up:active,
-    .btn-sign-up:hover {
+    .btn-forgot:active,
+    .btn-forgot:hover {
       background-color: rgb(0, 0, 0);
       border: white 2px solid;
     }

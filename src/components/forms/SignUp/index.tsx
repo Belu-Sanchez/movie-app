@@ -34,17 +34,14 @@ const SignUp = () => {
               <Form.Label>Name</Form.Label>
               <Form.Control type="text" {...register('name')} required />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasicLastname">
               <Form.Label>Lastname</Form.Label>
               <Form.Control type="text" {...register('lastname')} required />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email"  {...register('email')} required />
             </Form.Group>
-
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" {...register('password')} required />
